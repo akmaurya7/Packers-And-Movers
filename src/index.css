@@ -2342,6 +2342,21 @@ a {
 }
 
 @media (max-width: 768px) {
+  .premium-page .topbar {
+    padding: 6px 0;
+    font-size: .68rem;
+  }
+
+  .premium-page .topbar-inner {
+    min-height: 22px;
+    justify-content: center;
+  }
+
+  .premium-page .topbar-left > span:not(:first-child),
+  .premium-page .topbar-right {
+    display: none !important;
+  }
+
   .premium-page .header-phone-link { display: none; }
   .premium-page .nav-links { gap: 0; }
   .premium-hero-layout { padding-top: 40px; padding-bottom: 58px; }
