@@ -20,7 +20,7 @@ export default function Footer() {
             </div>
 
             <p className="footer-bio-text">
-              Electronic City’s premier boutique relocation architecture. Engineered 5-layer packing, closed GPS containers, and transparent WhatsApp quotations.
+              Careful local and long-distance moves from Electronic City, with sturdy packing, clear communication and a crew that treats your things like their own.
             </p>
 
             <div className="footer-rating-pill">

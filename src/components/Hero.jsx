@@ -14,13 +14,13 @@ export default function Hero() {
           </div>
 
           <h1 className="hero-title">
-            Flat boxes.<br />
-            Full fleet.<br />
-            <span className="hero-title-highlight">New front door.</span>
+            Moving made simple.<br />
+            From doorstep to<br />
+            <span className="hero-title-highlight">new front door.</span>
           </h1>
 
           <p className="hero-lead">
-            We arrive with heavy-duty flat-packed boxes, tape and wrap every piece with you, then drive your life across Bengaluru in the order you unpack. Zero damage, zero hidden fees.
+            Reliable packing, careful handling and clear pricing for homes, offices and vehicles across Bengaluru. Tell us what you are moving and we will take care of the rest.
           </p>
 
           <div className="hero-cta-row">
