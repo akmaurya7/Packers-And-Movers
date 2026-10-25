@@ -101,7 +101,7 @@ export default function ServicesGrid({ onSelectService }) {
                 </ul>
 
                 <div className="service-card-action">
-                  <span>Select &amp; Quote</span>
+                  <span>Book this service</span>
                   <ArrowRight size={15} />
                 </div>
               </article>

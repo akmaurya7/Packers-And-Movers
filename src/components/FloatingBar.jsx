@@ -15,7 +15,7 @@ export default function FloatingBar() {
           <span>Call Now</span>
         </a>
         <a 
-          href="https://wa.me/917338582679?text=Hi%20KGF%20Express,%20I%20want%20a%20quick%20quote%20for%20my%20move" 
+          href="https://wa.me/917338582679?text=Hi%20KGF%20Express,%20I%20want%20to%20book%20a%20move"
           target="_blank" 
           rel="noopener noreferrer" 
           className="btn btn-primary btn-sm"

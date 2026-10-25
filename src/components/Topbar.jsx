@@ -28,7 +28,7 @@ export default function Topbar() {
             +91 73385 82679
           </a>
           <a 
-            href="https://wa.me/917338582679?text=Hi%20KGF%20Express,%20I%20need%20a%20relocation%20quote" 
+            href="https://wa.me/917338582679?text=Hi%20KGF%20Express,%20I%20want%20to%20book%20a%20move"
             target="_blank" 
             rel="noopener noreferrer" 
             className="topbar-wa-link"

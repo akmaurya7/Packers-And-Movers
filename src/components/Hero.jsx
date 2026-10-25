@@ -19,10 +19,10 @@ export default function Hero() {
 
           <div className="hero-cta-row">
             <a href="#quote-section" className="btn btn-primary btn-xl">
-              <span>Get a free quote</span>
+              <span>Start booking</span>
               <ArrowRight size={16} />
             </a>
-            <a href="https://wa.me/917338582679?text=Hi%20KGF%20Express,%20I%20need%20a%20moving%20quote" className="btn btn-secondary btn-xl" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/917338582679?text=Hi%20KGF%20Express,%20I%20want%20to%20book%20a%20move" className="btn btn-secondary btn-xl" target="_blank" rel="noopener noreferrer">
               <MessageCircle size={16} style={{ color: 'var(--whatsapp-dark)' }} />
               <span>WhatsApp the team</span>
             </a>

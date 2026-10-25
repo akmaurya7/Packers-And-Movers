@@ -68,7 +68,7 @@ export default function Footer() {
             </div>
             <div className="footer-contact-row">
               <MessageSquare size={15} style={{ color: 'var(--whatsapp-dark)', flexShrink: 0 }} />
-              <a href="https://wa.me/917338582679?text=Hi%20KGF%20Express,%20I%20need%20a%20relocation%20quote" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--whatsapp-dark)', fontWeight: 600 }}>
+              <a href="https://wa.me/917338582679?text=Hi%20KGF%20Express,%20I%20want%20to%20book%20a%20move" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--whatsapp-dark)', fontWeight: 600 }}>
                 WhatsApp: 73385 82679
               </a>
             </div>
@@ -86,7 +86,7 @@ export default function Footer() {
             <span>•</span>
             <span>Safe Transit Verified</span>
             <span>•</span>
-            <a href="#quote-section" style={{ color: 'var(--accent)', fontWeight: 600 }}>Request a Quote</a>
+            <a href="#quote-section" style={{ color: 'var(--accent)', fontWeight: 600 }}>Book a Move</a>
           </div>
         </div>
       </div>

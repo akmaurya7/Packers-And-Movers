@@ -3,7 +3,7 @@ import { ArrowRight, CheckCircle2, Clock3, MapPin, MessageCircle, Phone, ShieldC
 
 const STEPS = [
   ['01', 'Tell us what is moving', 'Share your pickup, destination and service.'],
-  ['02', 'Get a clear quote', 'We confirm the plan and price on WhatsApp.'],
+  ['02', 'Confirm your move', 'We confirm the plan, date and price on WhatsApp.'],
   ['03', 'Move without the stress', 'Our crew packs, moves and settles everything.']
 ];
 
@@ -48,8 +48,8 @@ export default function PremiumSections() {
           </div>
           <div className="premium-contact-actions">
             <a className="btn btn-primary btn-xl" href="tel:+917338582679"><Phone size={17} /> Call the team</a>
-            <a className="btn btn-whatsapp btn-xl" href="https://wa.me/917338582679?text=Hi%20KGF%20Express,%20I%20need%20a%20moving%20quote" target="_blank" rel="noopener noreferrer"><MessageCircle size={17} /> WhatsApp us</a>
-            <a className="premium-text-link" href="#quote-section">Book online <ArrowRight size={15} /></a>
+            <a className="btn btn-whatsapp btn-xl" href="https://wa.me/917338582679?text=Hi%20KGF%20Express,%20I%20want%20to%20book%20a%20move" target="_blank" rel="noopener noreferrer"><MessageCircle size={17} /> WhatsApp us</a>
+            <a className="premium-text-link" href="#quote-section">Complete booking online <ArrowRight size={15} /></a>
           </div>
         </div>
       </section>

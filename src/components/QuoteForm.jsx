@@ -146,10 +146,10 @@ export default function QuoteForm({
       <div className="container">
         <div className="quote-wrapper-card">
           <div className="quote-head-block">
-            <span className="kicker-tag mono">INSTANT QUOTE ENGINE</span>
-            <h2>Tell Us What You Need Moved.</h2>
+            <span className="kicker-tag mono">BOOKING REQUEST</span>
+            <h2>Tell us about your move.</h2>
             <p>
-              Direct dispatch quotes sent straight to WhatsApp on <strong>+91 73385 82679</strong>. No surprise pricing, no middleman fees.
+              Share a few details and our dispatch team will confirm your move on WhatsApp: <strong>+91 73385 82679</strong>.
             </p>
           </div>
 
@@ -370,7 +370,7 @@ export default function QuoteForm({
             <button type="submit" className="btn btn-submit-wa">
               <MessageSquare size={22} />
               <div className="wa-btn-content">
-                <strong>Submit &amp; Open in WhatsApp</strong>
+              <strong>Send booking request on WhatsApp</strong>
                 <span>Direct Dispatch Desk: +91 73385 82679</span>
               </div>
               <ArrowRight size={18} />
@@ -394,7 +394,7 @@ export default function QuoteForm({
             <div className="modal-backdrop" onClick={() => setSubmittedMessage(null)}>
               <div className="modal-dialog-card" style={{ maxWidth: '520px' }} onClick={e => e.stopPropagation()}>
                 <div className="modal-dialog-header">
-                  <h3>WhatsApp Inquiry Generated</h3>
+              <h3>Booking request ready</h3>
                   <button type="button" className="modal-close-cross" onClick={() => setSubmittedMessage(null)}>&times;</button>
                 </div>
                 <div className="modal-dialog-body">

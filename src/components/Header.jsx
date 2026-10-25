@@ -41,7 +41,7 @@ export default function Header() {
             <span>73385 82679</span>
           </a>
           <a href="#quote-section" className="btn btn-primary btn-sm">
-            <span>Request Quote</span>
+            <span>Book a move</span>
             <ArrowRight size={14} />
           </a>
           <button 
