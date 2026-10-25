@@ -2,21 +2,15 @@ import React, { useState } from 'react';
 import Topbar from './components/Topbar';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import HowItWorks from './components/HowItWorks';
-import HouseholdSpotlight from './components/HouseholdSpotlight';
 import ServicesGrid from './components/ServicesGrid';
-import MoveEstimator from './components/MoveEstimator';
 import QuoteForm from './components/QuoteForm';
 import MapModal from './components/MapModal';
-import LocalHub from './components/LocalHub';
-import Testimonials from './components/Testimonials';
-import FaqAccordion from './components/FaqAccordion';
 import Footer from './components/Footer';
 import FloatingBar from './components/FloatingBar';
+import PremiumSections from './components/PremiumSections';
 
 export default function App() {
   const [selectedService, setSelectedService] = useState('Household Shifting');
-  const [prefilledMessage, setPrefilledMessage] = useState('');
   
   // Map Modal State
   const [mapModalOpen, setMapModalOpen] = useState(false);
@@ -35,29 +29,18 @@ export default function App() {
     }
   };
 
-  const handleApplyEstimatorSpec = ({ service, message }) => {
-    setSelectedService(service);
-    setPrefilledMessage(message);
-  };
-
   return (
-    <div className="app-root">
+    <div className="app-root premium-page">
       <Topbar />
       <Header />
       <main>
         <Hero />
-        <HowItWorks />
-        <HouseholdSpotlight onSelectService={(srv) => setSelectedService(srv)} />
         <ServicesGrid onSelectService={(srv) => setSelectedService(srv)} />
-        <MoveEstimator onApplySpec={handleApplyEstimatorSpec} />
+        <PremiumSections />
         <QuoteForm 
           prefilledService={selectedService} 
-          prefilledMessage={prefilledMessage} 
           onOpenMapModal={handleOpenMapModal} 
         />
-        <LocalHub />
-        <Testimonials />
-        <FaqAccordion />
       </main>
       <Footer />
       <FloatingBar />

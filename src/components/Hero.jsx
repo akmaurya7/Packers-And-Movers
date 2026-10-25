@@ -1,95 +1,56 @@
 import React from 'react';
-import { Calculator, ArrowRight, ShieldCheck, MapPin, Star, Truck } from 'lucide-react';
+import { ArrowRight, CheckCircle2, MessageCircle, Phone, ShieldCheck } from 'lucide-react';
 
 export default function Hero() {
   return (
     <section className="hero-section" id="top">
-      <div className="container hero-layout">
+      <div className="container premium-hero-layout">
         <div className="hero-copy-column">
-          <div className="hero-pill-row">
-            <span className="kicker-tag mono">
-              <span className="pulse-green"></span>
-              BENGALURU RELOCATION CO. · 3+ YEARS OF TRUST
-            </span>
-          </div>
+          <span className="eyebrow hero-eyebrow"><span className="pulse-green"></span> Electronic City · Bengaluru</span>
 
           <h1 className="hero-title">
-            Moving made simple.<br />
-            From doorstep to<br />
-            <span className="hero-title-highlight">new front door.</span>
+            Move with care.<br />
+            Arrive with <span className="hero-title-highlight">confidence.</span>
           </h1>
 
           <p className="hero-lead">
-            Reliable packing, careful handling and clear pricing for homes, offices and vehicles across Bengaluru. Tell us what you are moving and we will take care of the rest.
+            Professional moving and packing for homes, offices and vehicles across Bengaluru. One friendly team from pickup to delivery.
           </p>
 
           <div className="hero-cta-row">
             <a href="#quote-section" className="btn btn-primary btn-xl">
-              <span>Request Instant Quote</span>
+              <span>Get a free quote</span>
               <ArrowRight size={16} />
             </a>
-            <a href="#estimator" className="btn btn-secondary btn-xl">
-              <Calculator size={16} style={{ color: 'var(--accent)' }} />
-              <span>Estimate Move Size</span>
+            <a href="https://wa.me/917338582679?text=Hi%20KGF%20Express,%20I%20need%20a%20moving%20quote" className="btn btn-secondary btn-xl" target="_blank" rel="noopener noreferrer">
+              <MessageCircle size={16} style={{ color: 'var(--whatsapp-dark)' }} />
+              <span>WhatsApp the team</span>
             </a>
           </div>
 
-          <div className="hero-metrics-bar">
-            <div className="hero-metric-item">
-              <div className="metric-num">
-                4.8<span className="metric-star">★</span>
-              </div>
-              <span className="metric-lbl">382 GOOGLE REVIEWS</span>
-            </div>
-            <div className="metric-sep"></div>
-            <div className="hero-metric-item">
-              <div className="metric-num">
-                3+<span className="metric-star" style={{ fontSize: '1.1rem' }}>YRS</span>
-              </div>
-              <span className="metric-lbl">PROVEN TRACK RECORD</span>
-            </div>
-            <div className="metric-sep"></div>
-            <div className="hero-metric-item">
-              <div className="metric-num">
-                100<span className="metric-star" style={{ fontSize: '1.1rem' }}>%</span>
-              </div>
-              <span className="metric-lbl">ZERO DAMAGE PLEDGE</span>
-            </div>
+          <div className="hero-trust-list">
+            <span><CheckCircle2 size={16} /> 4.8 from 382 reviews</span>
+            <span><ShieldCheck size={16} /> Careful, insured handling</span>
           </div>
         </div>
 
-        <div className="hero-visual-column">
+        <div className="premium-hero-visual">
           <div className="hero-visual-card">
             <div className="hero-img-wrap">
               <img 
-                src="/assets/hero-3d.jpg" 
-                alt="3D isometric rendering of KGF Express moving vehicle loaded with packaged household boxes" 
+                src="/assets/service-household.png"
+                alt="Carefully wrapped household furniture ready for a professional move"
                 className="hero-3d-img"
                 loading="eager"
               />
             </div>
 
-            {/* Floating Top Badge */}
-            <div className="badge-floating badge-top">
-              <div className="badge-icon-sq">
-                <Truck size={18} />
-              </div>
-              <div className="badge-text-block">
-                <span className="badge-title">Electronic City Hub</span>
-                <span className="badge-subtitle">Rapid Dispatch Fleet</span>
-              </div>
+            <div className="hero-contact-card">
+              <span className="eyebrow">READY WHEN YOU ARE</span>
+              <strong>Talk to a move coordinator</strong>
+              <a href="tel:+917338582679"><Phone size={15} /> +91 73385 82679</a>
             </div>
-
-            {/* Floating Bottom Badge */}
-            <div className="badge-floating badge-bottom">
-              <div className="badge-icon-sq" style={{ background: '#ecfdf5', color: '#10b981' }}>
-                <ShieldCheck size={18} />
-              </div>
-              <div className="badge-text-block">
-                <span className="badge-title">IBA &amp; ISO Approved Supplies</span>
-                <span className="badge-subtitle">5-Layer Shockproof Wrap</span>
-              </div>
-            </div>
+            <div className="hero-visual-caption"><ShieldCheck size={15} /> Safe packing. Clear updates.</div>
           </div>
         </div>
       </div>
